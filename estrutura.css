@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto',    sans-serif;
+
+}
+
+header{
+    background-color:#FFB800;
+    height: auto;
+    display: flex;
+}
+
+
+.logo{
+    width: 30%;
+    padding:1% ;
+}
+
+.tit-pag{
+    width:70%;
+    text-align: center;
+    padding:1% ;
+}
+
+.tit-pag h1{
+    height:100%;
+    line-height: 73px;
+    color: #af4b08;
+    letter-spacing: 2.5px;
+    font-size: 40px;
+}
+
+.container-nav{
+    background-color: #B65A1E;
+    width: 30%;
+}
+
+nav{
+    padding:30px;
+    margin:20px;
+    margin-top: 0;
+    border-radius:22px;
+}
+
+nav h1 {
+    font-size: 40px;
+    line-height: 39px;
+    letter-spacing: 1px;
+    font-weight:400;
+    color: #FFFFFF;
+    
+}
+
+nav ul a {
+    text-decoration:none;
+    
+}
+
+nav ul a li{
+    color:#FFB800;
+    font-size:25px;
+    margin-bottom:20px;
+    list-style-type:none; 
+    padding:5px 20px;
+    border-radius:5px;
+    letter-spacing: 1.5px;
+}
+
+nav li:hover{
+    color:#B65A1E;
+    background-color:#FFB800;
+    transition-duration:0.4s;
+}
+
+hr{
+    border:none;
+    border:1px solid white;
+    margin:20px 0;
+}
+
+nav ul .pag-active{
+    color:#B65A1E;
+    background-color:#FFB800;
+}
+
+article{
+    width: 70%;
+}
+
+.container-content{
+    display: flex;
+}
+
+section h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #B65A1E;
+}
+
+section .subtit{
+    text-align: center;
+    color: #858585;
+}
+
+/* Estilos especificamente para a pagina de formularios (06-formularios) */
+
+.reset{
+    margin-top:0;
+}
+
+section form div label{
+    font-size: 25px;
+    color:#FFB800  ;  
+    letter-spacing: 1.5px;
+    font-weight: 500;
+
+}
+
+form{
+    width: 700px;
+    margin:40px auto;
+    background-color: #B65A1E;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form div {
+    margin: 25px auto ;
+    padding: 0 10px;
+}
+
+form div select,
+form div textarea,
+form div input {
+    padding:10px;
+    border-radius: 7px;
+    font-size: 20px;
+    width: 100%;
+    border:1px solid #FFB800;
+    margin-top: 10px;
+}
+
+form div select{
+    width: 60%;
+    cursor: pointer;
+
+}
+
+
+
+form .name{
+    width: 50%;
+    float: left;
+}
+
+.questions{
+text-align: center;
+}
+
+.questions p,
+.questions input{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    margin:10px 0;
+}
+
+.questions p{
+    text-align: left;
+    font-size:20px;
+
+}
+
+.questions input{
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.button input{
+    background-color: #FFB800;
+    color:#B65A1E;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.button input:hover{
+    background-color: #e47d07;
+    color:#693009;
+    transition-duration: 0.4s;
+
+}
+
+/* Estilos pagina Tabelas (04-tabelas.html) */
+
+.tit-border{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #B65A1E;
+}
+
+.subtit-tabelas{
+    margin: 30px 0 10px ;
+    color:#af4b08;
+}
+
+section blockquote,
+section p{
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+/* Estilos pagina Listas e Links (02-listas-e-links.html) */
+
+section{
+    padding:60px;
+}
+
+section h2{
+    margin:30px 0 10px;
+    letter-spacing: 1px;
+
+}
+
+/* estilos para o 'footer' */
+
+footer {
+    background-color: #FFB800;
+}
+
+footer ul {
+    width: 25%;
+    border-left: 2px solid #B65A1E;
+    padding: 5px 20px;
+    margin: 15px;
+}
+
+footer ul .tit{
+    color: #FFFFFF;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    border-left:2px solid #B65A1E;
+}
+
+
+footer ul li{
+    list-style-type: none;
+    background-color: #B65A1E;
+    margin-bottom: 4px;
+    display: flex;
+    padding: 7px 7.5px;
+    border-radius: 5px;
+}
+
+footer ul li svg{
+    width: 24px;
+    height:24px;
+    float: left;
+}
+
+footer ul li p{
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #FFB800;
+}
+
+footer ul a{
+    text-decoration: none;
+
+}
+
+footer ul li:hover{
+    background-color: #833e10;
+    transition-duration: 0.4s;
+}
+
+.container-footer{
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+
+}
+
+footer section{
+    max-width: 1024px;
+    width: 75%;
+    margin: 10px;
+    padding: 0px;
+}
+
+footer section h1{
+    text-align: left;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 1.2px;
+    color: #B65A1E;
+    margin: 30px 0;
+
+}
+
+footer hr{
+    border-color: #B65A1E;
+}
+
+footer section p{
+    float: right;
+    margin: 0;
+    margin:0 20px 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: #B65A1E;
+}
+
+.button-home{
+    background-color: #B65A1E;
+    width: 50%;
+    text-align: center;
+    margin:30px auto ;
+    padding:10px 0;
+    border-radius: 5px;
+
+}
+
+.button-home a{
+    text-decoration: none;
+    color: #FFB800;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+}
+
+.button-home:hover{
+    background-color: #693009;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

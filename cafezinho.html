@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cafezinho.css">
+
+     <!-- Links da fonte Roboto -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+ 
+    <title>Cafezinho</title>
+</head>
+<body>
+    <div class="back-home"><a href="homepage_8.html">voltar para home</a></div>
+
+    <div class="container">
+        <div class="container-block">
+            <h1>O que gostaria?</h1>
+            <a onclick="fun()"><div class="button-coffe">Meu café, Por favor!</a></div>
+        </div>
+    </div>
+    <div id="cafe">
+        <h1 id="cafe-text"></h1>
+        <img src="./images/fundo-coffee.png" id="image" alt="teste">
+    </div>
+
+    <script>
+        function fun() {
+            document.getElementById("image").src = "./images/convite-left2.png";
+            document.getElementById("cafe-text").innerHTML = "Aqui esta! espero que goste !!"
+            
+        }
+        
+        
+        
+    </script>
+</body>
+
+</html>
